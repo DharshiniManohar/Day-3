@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD BLOG</title>
+    <link rel="icon" href="1.png">
+    <style>
+        body {
+            background-color: darksalmon;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative; /* For positioning aside */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(6, 6, 6, 0.7);
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        header h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            margin-right: 7cm; /* Space for the aside */
+        }
+        aside {
+            position: fixed;
+            top: 20px; /* Adjust as needed */
+            right: 0;
+            width: 7cm;
+            padding: 20px;
+            background-color: lightgray;
+            height: calc(100vh - 40px); /* Full viewport height minus padding */
+            overflow-y: auto; /* Scroll if content overflows */
+        }
+        .main-content {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .main-content img {
+            height: 10cm;
+            width: 30%;
+            border-radius: 5cm;
+            margin-right: 20px;
+        }
+        .main-content p {
+            max-width: 600px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CHOCOLATE CAKE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li style="font-size: larger;"><a href="#home">HOME</a></li>
+            <li style="font-size: larger;"><a href="#blog">BLOG</a></li>
+            <li style="font-size: larger;"><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="main-content">
+            <img src="https://i0.wp.com/www.wyldflour.com/wp-content/uploads/2019/04/Chocolate-Cake-with-Strawberry-Buttercream.jpg?resize=980%2C1470&ssl=1" alt="Chocolate Cake">
+            <p style="padding-top: 3.5cm;">Easier than Tiramisu. While I love a classic tiramisu, it does take a little more time to make, with first cooking a custard, assembling the layers of cream and coffee-soaked ladyfingers, and then allowing it sufficient time to chill. Today’s tiramisu cupcakes are much quicker, only taking less than two hours from start to finish.</p>
+        </div>
+        <div class="main-content">
+            <img src="https://dancearoundthekitchen.com/wp-content/uploads/2022/03/DSC_1013-2.jpg" alt="Chocolate Cake">
+            <p style="padding-top: 3.5cm;">Easier than Tiramisu. While I love a classic tiramisu, it does take a little more time to make, with first cooking a custard, assembling the layers of cream and coffee-soaked ladyfingers, and then allowing it sufficient time to chill. Today’s tiramisu cupcakes are much quicker, only taking less than two hours from start to finish.</p>
+        </div>
+    </div>
+    <aside>
+        <h2>About This Cake</h2>
+        <p>There is SO MUCH to love about this chocolate cake, but here are a few notable mentions:
+
+            Rich in flavor: When it comes to chocolate cake, it should taste like chocolate, but in cake form! When developing this recipe, I really wanted to pack in as much rich chocolate flavor as possible. To do this, I decided to use a ‘mud cake’ style chocolate cake recipe that uses actual chocolate in the cake batter (not just cocoa powder). I find that using good quality semi-sweet chocolate in the cake batter really takes the flavor to another level.
+            
+            Moist: Not only is this cake packed with chocolate flavor, it’s also soft and has a wonderfully moist crumb. This recipe uses both butter and oil to provide wonderful moisture to the cake. Oil in particularly is a fat that is liquid at room temperature, so it provides unmatched moisture when it comes to cakes. This is the main reason I use it in most of my cake recipes 🙂
+            
+            Easy: This recipe doesn’t require any hand or stand mixer to make, and comes together really easily! If you have a few bowls and a whisk, you’re good to go!
+            
+            The best frosting ever: The base chocolate cake layers are paired with an incredibly delicious chocolate fudge frosting, that takes this chocolate cake recipe as a whole to another level! The chocolate frosting is so decadent and has the most wonderful velvety texture. Just be careful though, you may end up eating too much of it with a spoon before you even get to frosting the cake! This frosting is a softer frosting and not ideal if you’re doing a lot of piping, in which case you may want to try my chocolate buttercream frosting with a twist (it’s a cream cheese frosting and tastes incredible!) or a firm chocolate ganache.
+            
+            </p>
+    </aside>
+    <footer><center>© copyright reserved</center></footer>
+</body>
+</html>
